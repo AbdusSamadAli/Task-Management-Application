@@ -1,6 +1,5 @@
 {
-  "dependencies": {
-    "@tailwindcss/vite": "^4.3.0",
-    "tailwindcss": "^4.3.0"
+  "scripts": {
+    "build": "cd client && npm install && npm run build && cd ../server && npm install"
   }
 }
